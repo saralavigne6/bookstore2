@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <welcome-file-list>  
+        <welcome-file>ShowPictureHome</welcome-file>  
+    </welcome-file-list> 
+  <filter>
+  		<filter-name>CharFilter</filter-name>
+  		<filter-class>com.oracle.filter.CharFilter</filter-class>
+  </filter>
+  <servlet>
+    <servlet-name>UserRegist</servlet-name>
+    <servlet-class>com.oracle.control.UserRegist</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>com.oracle.control.UserLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetPassword</servlet-name>
+    <servlet-class>com.oracle.control.GetPassword</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowPictureHome</servlet-name>
+    <servlet-class>com.oracle.control.ShowPictureHome</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DisplayBookSession</servlet-name>
+    <servlet-class>com.oracle.control.DisplayBookSession</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LookBooks</servlet-name>
+    <servlet-class>com.oracle.control.LookBooks</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddBookToCart</servlet-name>
+    <servlet-class>com.oracle.control.AddBookToCart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MotiyBook</servlet-name>
+    <servlet-class>com.oracle.control.MotiyBook</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginExit</servlet-name>
+    <servlet-class>com.oracle.control.LoginExit</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteBookFormCart</servlet-name>
+    <servlet-class>com.oracle.control.DeleteBookFormCart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProcessOrder</servlet-name>
+    <servlet-class>com.oracle.control.ProcessOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LookCheckOrder</servlet-name>
+    <servlet-class>com.oracle.control.LookCheckOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteBookCheck</servlet-name>
+    <servlet-class>com.oracle.control.DeleteBookCheck</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  <filter-mapping>
+  		<filter-name>CharFilter</filter-name>
+  		<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <servlet-mapping>
+    <servlet-name>UserRegist</servlet-name>
+    <url-pattern>/UserRegist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPassword</servlet-name>
+    <url-pattern>/GetPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowPictureHome</servlet-name>
+    <url-pattern>/ShowPictureHome</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DisplayBookSession</servlet-name>
+    <url-pattern>/DisplayBookSession</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LookBooks</servlet-name>
+    <url-pattern>/LookBooks</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddBookToCart</servlet-name>
+    <url-pattern>/AddBookToCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MotiyBook</servlet-name>
+    <url-pattern>/MotiyBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginExit</servlet-name>
+    <url-pattern>/LoginExit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteBookFormCart</servlet-name>
+    <url-pattern>/DeleteBookFormCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProcessOrder</servlet-name>
+    <url-pattern>/ProcessOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LookCheckOrder</servlet-name>
+    <url-pattern>/LookCheckOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteBookCheck</servlet-name>
+    <url-pattern>/DeleteBookCheck</url-pattern>
+  </servlet-mapping>
+  
+
+</web-app>

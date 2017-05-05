@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <filter>
+    	<filter-name>myFilter</filter-name>
+    	<filter-class>com.oracle.filter.myFilter</filter-class>
+    </filter>
+    <filter-mapping>
+    	<filter-name>myFilter</filter-name>
+    	<url-pattern>/*</url-pattern>
+    </filter-mapping>
+  <servlet>
+    <servlet-name>user_Login_Check</servlet-name>
+    <servlet-class>com.oracle.control.user_Login_Check</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>goods_Name_Check</servlet-name>
+    <servlet-class>com.oracle.control.goods_Name_Check</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>insert_NewGoods</servlet-name>
+    <servlet-class>com.oracle.control.insert_NewGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddGoods</servlet-name>
+    <servlet-class>com.oracle.control.AddGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateGoodsMessage</servlet-name>
+    <servlet-class>com.oracle.control.UpdateGoodsMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateGoods</servlet-name>
+    <servlet-class>com.oracle.control.UpdateGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowGoods</servlet-name>
+    <servlet-class>com.oracle.control.ShowGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteGoods</servlet-name>
+    <servlet-class>com.oracle.control.DeleteGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodsNumberLow</servlet-name>
+    <servlet-class>com.oracle.control.GoodsNumberLow</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodsSearch</servlet-name>
+    <servlet-class>com.oracle.control.GoodsSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowGoodsDetail</servlet-name>
+    <servlet-class>com.oracle.control.ShowGoodsDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PurchaseGoods</servlet-name>
+    <servlet-class>com.oracle.control.PurchaseGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PlaceOrder</servlet-name>
+    <servlet-class>com.oracle.control.PlaceOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PurchaseComplete</servlet-name>
+    <servlet-class>com.oracle.control.PurchaseComplete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmployeeSalesMessage</servlet-name>
+    <servlet-class>com.oracle.control.EmployeeSalesMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmployeeManagment</servlet-name>
+    <servlet-class>com.oracle.control.EmployeeManagment</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateEmployee</servlet-name>
+    <servlet-class>com.oracle.control.UpdateEmployee</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteEmployee</servlet-name>
+    <servlet-class>com.oracle.control.DeleteEmployee</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmployeeUsernameCheck</servlet-name>
+    <servlet-class>com.oracle.control.EmployeeUsernameCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddEmployee</servlet-name>
+    <servlet-class>com.oracle.control.AddEmployee</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExitSystem</servlet-name>
+    <servlet-class>com.oracle.control.ExitSystem</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DealCheck</servlet-name>
+    <servlet-class>com.oracle.control.DealCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CompleteCheck</servlet-name>
+    <servlet-class>com.oracle.control.CompleteCheck</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>user_Login_Check</servlet-name>
+    <url-pattern>/user_Login_Check</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>goods_Name_Check</servlet-name>
+    <url-pattern>/goods_Name_Check</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>insert_NewGoods</servlet-name>
+    <url-pattern>/insert_NewGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddGoods</servlet-name>
+    <url-pattern>/AddGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateGoodsMessage</servlet-name>
+    <url-pattern>/UpdateGoodsMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateGoods</servlet-name>
+    <url-pattern>/UpdateGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowGoods</servlet-name>
+    <url-pattern>/ShowGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteGoods</servlet-name>
+    <url-pattern>/DeleteGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsNumberLow</servlet-name>
+    <url-pattern>/GoodsNumberLow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsSearch</servlet-name>
+    <url-pattern>/GoodsSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowGoodsDetail</servlet-name>
+    <url-pattern>/ShowGoodsDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PurchaseGoods</servlet-name>
+    <url-pattern>/PurchaseGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PlaceOrder</servlet-name>
+    <url-pattern>/PlaceOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PurchaseComplete</servlet-name>
+    <url-pattern>/PurchaseComplete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeSalesMessage</servlet-name>
+    <url-pattern>/EmployeeSalesMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeManagment</servlet-name>
+    <url-pattern>/EmployeeManagment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateEmployee</servlet-name>
+    <url-pattern>/UpdateEmployee</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteEmployee</servlet-name>
+    <url-pattern>/DeleteEmployee</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeUsernameCheck</servlet-name>
+    <url-pattern>/EmployeeUsernameCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddEmployee</servlet-name>
+    <url-pattern>/AddEmployee</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExitSystem</servlet-name>
+    <url-pattern>/ExitSystem</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DealCheck</servlet-name>
+    <url-pattern>/DealCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CompleteCheck</servlet-name>
+    <url-pattern>/CompleteCheck</url-pattern>
+  </servlet-mapping>
+	<welcome-file-list>  
+        <welcome-file>Login.jsp</welcome-file>  
+    </welcome-file-list> 
+</web-app>

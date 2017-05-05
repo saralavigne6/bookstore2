@@ -1,0 +1,67 @@
+@charset "utf-8";
+#login{
+	
+	position:relative;
+	left:0%;
+	margin-top:8%;
+	
+}
+#Loginpanel{
+	position:absolute;
+	left:50%;
+	top:74%;
+}
+#logo{
+	position:absolute;
+	left:86%;
+	top:13%;
+}
+.glogoa{
+	text-decoration:none;
+	display:none;
+	padding:0;
+}
+#button{
+	background-color:#ff0000;
+}
+#leftPanel{
+	background-image:url(images/1_r2_c1.jpg);
+	background-position:center;
+	background-repeat:no repeat;
+}
+#ManagePicture{
+	position:fixed;
+	left:0px;
+	top:0px;
+}
+#topPicture{
+	position:fixed;
+	left:0px;
+	top:0px;
+}
+#ManageFont{
+	position:fixed;
+	left:7%;
+	top:0px;
+}
+#orderTable{
+	position:fixed;
+	top:50px;
+}
+a {
+	text-decoration: none;
+}
+
+a:link{
+	color:#0000ff;
+}
+a:visited{
+	color:#0000ff;
+}
+a:hover{
+	color:#ff0000;
+}
+
+a{
+	text-decoration:none;
+}

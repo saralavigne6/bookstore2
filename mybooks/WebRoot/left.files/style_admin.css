@@ -1,0 +1,42 @@
+td {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 150%
+}
+BODY {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: "ËÎÌו"; BACKGROUND-COLOR: #d6e0ef
+}
+A {
+	COLOR: #0044dd; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff3300; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #0044dd; TEXT-DECORATION: none
+}
+INPUT {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Tahoma, Verdana; FONT-VARIANT: normal
+}
+SELECT {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Tahoma, Verdana; FONT-VARIANT: normal
+}
+TEXTAREA {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Tahoma, Verdana; FONT-VARIANT: normal
+}
+SELECT {
+	FONT: 9pt Tahoma, Verdana; COLOR: #000000; BACKGROUND-COLOR: #f8f8f8
+}
+.header {
+	FONT: bold 12px Tahoma, Verdana; COLOR: #ffffff; BACKGROUND-COLOR: #698cc3
+}
+.tableborder {
+	BORDER-RIGHT: #698cc3 1px solid; BORDER-TOP: #698cc3 1px solid; BACKGROUND: #d6e0ef; BORDER-LEFT: #698cc3 1px solid; BORDER-BOTTOM: #698cc3 1px solid
+}
+.altbg1 {
+	BACKGROUND: #efefef
+}
+.altbg2 {
+	BACKGROUND: #ffffff
+}
+.shadow {
+	FILTER: Shadow(Color=#cccccc, Direction=-60)
+}

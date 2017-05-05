@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>系统出错啦</title>
+		<link rel="stylesheet" media="screen" href="style.css">
+		
+		<script language="JavaScript">
+			function dosearch() {
+			var sf=document.searchform;
+			var submitto = sf.sengine.value + escape(sf.searchterms.value);
+			window.location.href = submitto;
+			return false;
+			}
+		</script>
+	</head>
+	<body>
+		
+		<div class="header">
+			<img src="images/Logo_sample.png" />
+		</div>
+		
+		<p class="error">error</p>
+		
+		<div class="content">
+			<h2>系统出错啦，请联系管理员</h2>
+			
+			<p class="text">
+			tel:15736038709 <br>
+			email:1211840085@qq.com
+			</p>
+				
+			<p class="links">
+				<a id="button" href="home.jsp">&larr; Back</a> 
+				
+			</p>
+		</div>
+		
+	</body>
+</html>
